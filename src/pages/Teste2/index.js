@@ -1,10 +1,11 @@
 import React from 'react'
 import { Text } from 'react-native'
 
+import GlobalStyles from '../../global.css'
 import Styles from './styles'
 
 export default function Teste2 (props) {
     return(
-        <Text>Teste02</Text>
+        <Text style={GlobalStyles.default}>Teste02</Text>
     )
 }
